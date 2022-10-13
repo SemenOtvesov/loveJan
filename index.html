@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fandom</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+	<div class="wrapper">
+
+	<main>
+		<div class="forms">
+			<div class="forms__title">введите своё имя и номер телефона</div>
+			<div class="forms__box">
+				<input name="nameInput" placeholder="ввод имени на кирилице" type="text" class="forms__input">
+				<div class="varingInput">Вы вводите имя не на кирилице</div>
+			</div>
+			<div class="forms__box">
+				<input type="date" class="forms__data">
+			</div>
+			<div class="forms__box">
+				<input name="telInput" placeholder="ввод номера" type="text" class="forms__input">
+				<div class="varingInput">Некорректный  номер</div>
+			</div>
+		</div>
+		<div class="hidenWindow">
+			<div class="hidenWindow__wrapper">
+				<div class="hidenWindow__background"><img src="img/фон.png" alt=""></div>
+				<div class="hidenWindow__top top">
+					<div class="top__imgBox top__imgBox-revers movementLeft deletImg2"><img src="img/облако-большое.png" alt=""></div>
+					<div class="top__imgBox movementLeft"><img src="img/болако-поменьше.png" alt=""></div>
+					<div class="top__imgBox movementTop"><img src="img/облако.png" alt=""></div>
+					<div class="top__imgBox top__imgBox-revers movementRight deletImg"><img src="img/болако-поменьше.png" alt=""></div>
+					<div class="top__imgBox movementRight deletImg2"><img src="img/облако-большое.png" alt=""></div>
+					<div class="top__imgBox movementDisplay"><img src="img/sun.png" alt=""></div>
+				</div>
+				<div class="hidenWindow__center">
+					<button class="hidenWindow__button">тикни</button>
+					<div class="hidenWindow__text"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
